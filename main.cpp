@@ -40,6 +40,7 @@ else if (choice == 2) {
     cout << "Enter the Temperature in Celsius: " << endl;
     cin >> C_K;
     cout << "Equivalent temperature in Kelvin: " << C_K + 273.15 << endl;
+    
 } else if (choice == 5){
     cout << "Enter the temperature in Kelvin: " << endl;
     cin >> K_F;
@@ -49,6 +50,7 @@ else if (choice == 2) {
     cout << "Enter the temperature in Kelvin: " << endl;
     cin >> K_C;
     cout << "Equivalent temperature in Celsius: " << K_C - 273.15 << endl;
+    
 } else {
     cout << "Invalid Input. Retry." << endl;
 }
